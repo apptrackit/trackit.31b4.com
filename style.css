@@ -1,0 +1,151 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+img {
+    height: 600px;
+    rotate: -10deg;
+}
+
+#right {
+    rotate: 10deg;
+}
+
+#box {
+    height: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#title {
+    color: white;
+    font-size: xx-large;
+}
+
+h1 {
+    letter-spacing: 0px;
+    margin: 20px;
+}
+
+#subtitle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    margin: 0px;
+    margin-bottom: 40px;
+    letter-spacing: 0px;
+    font-weight: 0;
+}
+
+#download-button {
+    transition: 0.4s;
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    font-size: medium;
+    padding-top: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+#download-button:hover {
+    background-color: #1662c4;
+}
+
+#social-icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#social-icons a {
+    margin-left: 10px;
+}
+
+#social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    img {
+        height: 500px;
+    }
+
+    h1 {
+        font-size: 60px;
+        letter-spacing: 10px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    #box {
+        height: auto;
+        padding: 20px;
+    }
+
+    #social-icons {
+        top: 10px;
+        right: 10px;
+    }
+
+    #social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        height: 320px;
+    }
+
+    h1 {
+        font-size: 60px;
+        letter-spacing: 5px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    #box {
+        height: auto;
+        padding: 10px;
+    }
+
+    #social-icons {
+        top: 5px;
+        right: 5px;
+    }
+
+    #social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #social-icons {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    #title {
+        margin-top: 10px;
+    }
+}
